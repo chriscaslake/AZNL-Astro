@@ -1,4 +1,7 @@
 @import "tailwindcss";
-@tailwindcss base;
-@tailwindcss components;
-@tailwindcss utilities;
+
+@theme {
+  --color-brand-primary: #2563eb;
+  --color-brand-dark: #0f172a;
+  --font-family-sans: "Inter", ui-sans-serif, system-ui;
+}
